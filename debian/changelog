@@ -1,0 +1,41 @@
+node-arr-diff (4.0.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Update VCS fields to salsa
+  * Use pkg-js-tools auto test & install
+  * Fix copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 27 Apr 2020 08:52:47 +0200
+
+node-arr-diff (4.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Update packaging:
+    - Use https in d/copyright's Format
+    - Bump dh compat to 10
+    - Clean d/rules
+    - Move to section javascript
+    - Bump std-ver to 4.1.1
+    - Bump d/watch to version 4
+    - Make autopkgtest check the installed code
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Fri, 24 Nov 2017 23:25:06 +0100
+
+node-arr-diff (3.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #842325)
+
+ -- Sruthi Chandran <srud@disroot.org>  Fri, 28 Oct 2016 11:07:40 +0530

@@ -1,0 +1,27 @@
+Source: node-arr-diff
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12)
+ , mocha
+ , node-arr-flatten
+ , pkg-js-tools (>= 0.9.20~)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-arr-diff
+Vcs-Git: https://salsa.debian.org/js-team/node-arr-diff.git
+Homepage: https://github.com/jonschlinkert/arr-diff
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-arr-diff
+Architecture: all
+Depends: ${misc:Depends}
+ , node-arr-flatten
+ , nodejs
+Description: Returns an array with only the unique values from the first array
+ Returns an array with only the unique values from the first array, by
+ excluding all values from additional arrays using strict equality for
+ comparisons.
+ .
+ Node.js is an event-based server-side JavaScript engine.

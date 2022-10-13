@@ -1,0 +1,4 @@
+# False positive
+source: source-is-missing benchmark/fixtures/med.js line length is 706 characters (>512)
+source: source-contains-prebuilt-javascript-object benchmark/fixtures/med.js line length is 706 characters (>512)
+source: very-long-line-length-in-source-file benchmark/fixtures/med.js line length is 706 characters (>512)
